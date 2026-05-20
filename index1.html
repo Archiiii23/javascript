@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      /*  console.log("hello");
+        console.error("errrr");
+        console.warn("warnnn");
+        var a=30;
+        var a=30;
+        let b=40
+        b=60 //we cant reassign the value again in let//
+        const c=90
+      //we cant reassign and redeclare the value in const//
+      console.log(a);
+      console.log(b);
+      console.log(u) //the error will be shown of not defined u//
+      console.log(window) //window is the global object in browser so we dont declare it//
+      let h
+      console.log(h)//undefined will be shown bcz we have not assigned any value//
+      console.log(5==="5")//false bcz === checks both value and datatype*/
+      console.log( typeof (typeof (9)))
+      let score=100
+      let to=100==100
+      console.log(to);
+      console.log([1]==[1]) //false //
+      console.log(null+4);
+      console.log(undefined+4);//NaN not a number//
+      if([]){
+        console.log("hii");
+      }else{
+        console.log("byee");
+      }
+      //Non primitive //
+      let arr=[1,2,3,true,"string"]
+      for (let a of arr){
+        console.log(a);
+      }
+      for (let a in arr){
+       // console.log(a);//
+        if(typeof(a)=='number'){
+            console.log(a);
+        }
+      }
+      let student={
+        Rollno: 73,
+        name:"Aj"
+
+      }
+        console.log(student.Rollno);
+        console.log(student.name);
+    </script>
+</body>
+</html>
